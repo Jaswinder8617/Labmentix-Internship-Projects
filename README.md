@@ -1,46 +1,28 @@
-Excellent 😎 Jaswinder!
-Here’s the **ultra-clean, compact version (under 200 words)** — perfect for your GitHub **About** or short `README.md`.
-It keeps all key insights, your three KPI cards, and still looks professional and complete.
+✈️ Airlines Performance and Reliability Dashboard
 
----
+📊 A Power BI dashboard powered by PostgreSQL that analyzes airline performance, delays, and reliability using real-world data.
 
-### ✈️ **Airlines Performance and Reliability Dashboard**
+🧩 Project Overview
+This dashboard visualizes airline efficiency through insights on on-time performance (OTP), arrival and departure delays, cancellations, and operational hubs. It helps identify patterns that affect reliability and passenger satisfaction.
 
-> A Power BI dashboard powered by PostgreSQL that analyzes airline performance, delays, and reliability using real-world data.
+🎯 Problem Statement
+Flight delays and cancellations are a significant issue in the US aviation industry, impacting passengers, airlines, and the economy.
+Our task is to perform an in-depth analysis of historical flight data to identify the key drivers of these disruptions, assess airline performance, and propose actionable insights.
+The dashboard includes KPI cards with a target OTP of 90%, helping track how far each airline is from its punctuality goal.
 
----
+💠 Key Metrics
+• OTP Rate – Percentage of on-schedule flights (Goal: 90%)
+• Arrival Delay – Average arrival delay (minutes)
+• Departure Delay – Average departure delay (minutes)
 
-#### 📊 **Overview**
+🔍 Key Insights
+• OTP rates differ widely; airlines below the 90% target indicate areas for operational improvement.
+• ✈️ Emirates is competitive but sometimes falls short of the OTP goal.
+• 🌦️ Weather and airline-related issues remain top causes of cancellations, impacting OTP.
+• ⏱️ Airlines with longer departure or arrival delays show lower OTP, highlighting bottlenecks.
+• 🗺️ Map visuals reveal major hubs; airlines operating through congested airports often struggle to meet the 90% OTP target.
+• 📉 Customer journey funnel shows the largest drop from scheduled departures to actual arrivals, emphasizing reliability gaps relative to the OTP goal.
 
-This dashboard visualizes airline efficiency through insights on **on-time performance (OTP)**, **arrival and departure delays**, **cancellations**, and **operational hubs**.
-It helps identify patterns that influence airline reliability and customer satisfaction.
-
----
-
-#### 💠 **Key Metrics**
-
-* **OTP Rate:** Percentage of on-schedule flights
-* **Arrival Delay:** Average arrival delay (minutes)
-* **Departure Delay:** Average departure delay (minutes)
-
----
-
-#### 🔍 **Key Insights**
-
-* OTP varies across airlines — some excel in punctuality, others lag behind.
-* *Emirates* remains strong but not always the top performer in OTP.
-* **Weather** and **airline-related issues** are major causes of cancellations.
-* Certain carriers show higher **departure** or **arrival** delays due to congestion.
-* Map visuals highlight major operational hubs; *Emirates* dominates international routes.
-* Customer journey funnel shows the biggest drop from scheduled departures to actual arrivals.
-
----
-
-#### 🚀 **Future Scope**
-
-* Real-time tracking with APIs
-* Predictive delay analysis using ML
-
----
-
-Would you like me to now craft a **2-line professional tagline** for the GitHub repo description (the one that appears just below your repo title)?
+🚀 Future Scope
+• Integration of real-time flight data through APIs
+• Predictive delay analysis using machine learning to improve OTP
